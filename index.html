@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kolors Virtual Try-On</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Kolors Virtual Try-On</h1>
+    <form id="upload-form">
+        <label for="image-upload">Upload your image:</label>
+        <input type="file" id="image-upload" accept="image/*" required>
+        <button type="submit">Try On</button>
+    </form>
+    <div id="result">
+        <h2>Result:</h2>
+        <img id="output-image" alt="Processed Image">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
